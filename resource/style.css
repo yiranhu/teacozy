@@ -1,0 +1,116 @@
+
+body {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+}
+/* Header */
+.header {
+  display: flex;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  text-decoration: underline;
+  justify-content: space-between;
+  opacity: 0.9;
+}
+nav span{
+  display: inline-flex;
+  align-items: center;
+  color: seashell;
+  padding-right: 50px;
+  padding-top: 20px;
+}
+.header img {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10px;
+  height: 50px;
+}
+
+/*First*/
+.first {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 1200px;
+}
+
+/*Second*/
+.second {
+  margin-top: 70px;
+  flex-wrap: wrap;
+  justify-content;
+  margin: 0 auto;
+  height: 500px;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.img {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  justify-content: space-around;
+}
+.img img {
+  width: 300px;
+  height: 200px;
+  padding-bottom: 10px;
+}
+.one , .two , .three , .four , .five {
+  text-align: center;
+  padding-top: 10px;
+}
+
+/*third*/
+.third {
+  margin:400px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  height: 500px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  justify-content: center;
+}
+.boxes {
+  display: flex;
+  flex-direction: row;
+  margin: 15px auto 0 auto ;
+  justify-content: space-around;
+}
+.left , .mid, .right {
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  opacity: 1;
+  background-color: black;
+}
+.location {
+  text-align: center;
+}
+
+/*Footer*/
+.footer {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.top {
+  text-align: center;
+}
+.bottom {
+  text-align: left;
+  padding-left: 15px;
+}
